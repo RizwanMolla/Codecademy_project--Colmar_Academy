@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    color: rgb(74, 74, 74);
+    line-height: 1.5;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  a:active, a:hover {
+      color: rgb(216, 216, 216)
+  }
+  
+  
+  
+  header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+  }
+  
+  header .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 64px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo p span {
+    color: rgb(155, 155, 155);
+  }
+  
+  .logo p {
+    font-size: 32px;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  nav a {
+    padding-right: 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:last-child {
+    padding-right: 0;
+  }
+  
+  .hero {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 24px;
+    padding: 32px 24px;
+    background-color: rgb(216, 216, 216);
+    align-items: center;
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .main-Images {
+    width: 100%;
+  }
+  
+  .hero button {
+    padding: 8px auto;
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: rgb(74, 74, 74);
+    border: 2px solid rgb(74, 74, 74);
+    border-radius: 3px;
+    transition: 0.2s ease-in;
+  }
+  
+  .hero button:active {
+      background-color: rgb(216, 216, 216);
+  }
+  
+  .hero button:hover {
+      transition: 0.2s ease-out;
+      transform: scale(1.01);
+  }
+  
+  .information {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 24px;
+  }
+  
+  .introduction {
+    padding: 32px 0px 32px 24px;
+  }
+  
+  .newsfeed {
+    border-left: 1px solid;
+    border-color: rgb(216, 216, 216);
+    padding-top: 16px;
+    padding-bottom: 32px;
+    .hero .headline {
+      padding: 32px 16px;
+    }
+  
+    .hero button {
+      background-color: rgb(155, 155, 155);
+      font-weight: 500;
+    }
+  
+    .information {
+      display: block;
+    }
+  
+  
+    .newsfeed {
+      border: none;
+      padding-bottom: 16px;
+    }
+  
+    .info {
+      padding: 16px;
+      display: block;
+      overflow: hidden;
+      border: none;
+    }
+  
+    .learning {
+      padding: 32px 16px;
+      background-color: rgb(245, 244, 245);
+    }
+  
+    .learning h2 {
+      padding-top: 0;
+    }
+  
+    div.mobile {
+      display: block;
+    }
+  
+    div.mobile h3 {
+      background-color: rgb(216, 216, 216);
+      padding: 16px 16px 24px 16px;
+      margin:0 0 8px 0;
+      border-radius: 2px;
+  
+    }
+  
+    div.mobile a {
+      text-decoration: none;
+      color: rgb(74, 74, 74);
+      margin: 0;
+    }
+  
+    .thesis .introduction {
+      padding: 0;
+    }
+  
+    .thesis .section-headline {
+      padding-bottom: 16px;
+    }
+    .thesis {
+      margin-bottom: 24px;
+    }
+  
+    footer {
+      padding: 0;
+      border: none;
+    }
+  
+    footer p {
+      padding: 16px;
+    }
+  
+  }
